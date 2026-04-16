@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "description": "Funções serverless para Plataforma EAD",
+  "main": "index.js",
+  "scripts": {
+    "start": "firebase emulators:start",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.0.0",
+    "firebase-functions": "^4.0.0"
+  }
+}
